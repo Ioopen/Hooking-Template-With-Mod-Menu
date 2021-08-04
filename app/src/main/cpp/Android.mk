@@ -5,6 +5,7 @@ LOCAL_MODULE := wolve
 
 LOCAL_CFLAGS := -Wno-error=format-security -fpermissive
 LOCAL_CFLAGS += -fno-rtti -fno-exceptions
+LOCAL_CPPFLAGS  = -Wall -std=c++14
 
 LOCAL_C_INCLUDES += $(MAIN_LOCAL_PATH)
 
